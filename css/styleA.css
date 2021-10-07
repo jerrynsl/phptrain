@@ -1,0 +1,286 @@
+body{
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.err{
+	background-color:red;
+	color:white;
+	padding:5px;
+	text-align: center;
+}
+
+.errno{
+	background-color:green;
+	color:white;
+	padding:5px;
+	text-align: center;
+}
+
+.container{
+	width: 700px;
+	height: 800px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(44, 62, 80,0.7);
+	margin-top: 60px;
+	border: transparent;
+	border-radius: 8px;
+}
+ 
+.container img{
+	width: 150px;
+	height: 150px;
+	margin-top: -60px;
+}
+ 
+input[type="text"],input[type="password"]{
+	height: 45px;
+	width: 430px;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+input[type="number"]{
+	height: 45px;
+	width: 430px;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+.head{
+	color:white;
+}
+
+.name{
+	height: 45px;
+	width: 430px;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+.num{
+	height: 45px;
+	width: 430px;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+.ori{
+	height: 50px;
+	width: 434px;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+.year{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+.month{
+	height: 50px;
+	width: 105px;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+.day{
+	height: 50px;
+	width: 140px;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 430px;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+ 
+.form-input::before{
+	content:"\f007";
+	font-family: "FontAwesome";
+	padding-left: 07px;
+	padding-top: 35px;
+	position: absolute;
+	font-size: 35px;
+	color: #2980b9; 
+}
+ 
+.form-input:nth-child(2)::before{
+	content: "\f023";
+}
+ 
+.btn-login{
+	padding: 15px 25px;
+	border: none;
+	background-color: #27ae60;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.btn-login:hover{
+	background-color: palegreen;
+	color: black;
+}
+
+.btn-signup{
+	padding: 15px 25px;
+	border: none;
+	background-color: #27ae60;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.btn-signup:hover{
+	background-color: palegreen;
+	color: black;
+}
+
+.btn-back{
+	display: flex;
+	margin: auto;
+	padding: 15px 25px;
+	border: none;
+	background-color: #27ae60;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.btn-back:hover{
+	background-color: palegreen;
+	color: black;
+}
+
+.sign{
+	color:white;
+}
+
+.sun {
+	color: white;
+}
+
+.p1{
+	margin-left: 2%;
+	font-size: 40pt;
+	color: white;
+}
+
+.p2{
+	margin-left: 2%;
+	font-size:80pt;
+	color: white;
+}
+
+.p3{
+	margin-left: 2%;
+	font-size:40pt;
+	color: white;
+}
+
+.mainpage{
+	background: rgb(105,105,105,0.6);
+	padding-bottom: 6.5%;
+}
+
+.mainpage-login-required{
+	background: rgb(105,105,105,0.6);
+	padding-bottom: 280px;
+	padding-top: 100px;
+}
+
+.mainpage-admin-home{
+	background: rgb(105,105,105,0.6);
+	padding-bottom: 11%;
+}
+
+.mainpage-admin-contact{
+	background: rgb(105,105,105,0.6);
+	padding-bottom: 11%;
+}
+
+.mainpage-admin-booking{
+	background: rgb(105,105,105,0.6);
+	padding-bottom: 11%;
+}
+
+p {
+	text-align: left;
+	margin-left: 18.5%;
+	font-style: bold;
+	font-size: 16pt;
+	color: white;
+}
+
+#pfoot{
+	padding: 20px;
+	text-align: center;
+	font-style: italic;
+	font-size: 10pt;
+	color: black;
+}
+
+.foot{
+	color: white;
+	background-color: #CCCCFF;
+}
+
+.overflow{
+	height: 450px;
+  	overflow-y: scroll;
+  	-ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.overflow::-webkit-scrollbar {
+	display: none;
+}
+
+
+table{
+	margin: 0 auto;
+	border-collapse: collapse;
+	border:transparent;
+	width: 70%;
+}
+
+tr:nth-child(even){
+	background-color: #23272A;
+}
+
+tr:nth-child(odd){
+	background-color: #2C2F33;
+}
+
+th{
+	background-color: #4CAF50;
+	color: white;
+}
+
+td, th{
+	text-align: left;
+	padding: 10px;
+}
+
+td{
+	color: white;
+}
